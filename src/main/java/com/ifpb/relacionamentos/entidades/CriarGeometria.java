@@ -23,7 +23,7 @@ public class CriarGeometria {
     
     private String criarquery(){
         
-        String query = "SELECT ST_AsEWKT (the_geom) FROM ";
+        String query = "SELECT ST_AsEWKT (geom) FROM ";
         
         switch(tipo){
             case "Região":
